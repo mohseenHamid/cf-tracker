@@ -1,0 +1,179 @@
+#main-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#header,
+#footer {
+  height: 15vh;
+  width: 100%;
+  background-color: #8ab446;
+  text-align: center;
+  color: white;
+}
+
+#main-body {
+  /* background-image: url("https://www.idahopower.com/content/uploads/2021/12/clean-energy-your-way-header-1920x101545-1.jpg");
+  background-size: cover; */
+  background-image: linear-gradient(100.88deg, #00898f 20.16%, #009671 33.89%, #009c6c 45.95%);
+  height: 85vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: larger;
+}
+
+#mb-left {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#input-form-container-top {
+  display: flex;
+}
+
+#input-form-container-bottom {
+  border: white solid 3px;
+  border-radius: 25px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#input-form-table {
+  border-spacing: 20px 10px;
+}
+
+.input-form-row {
+  width: 100%;
+}
+
+.c-left {
+  width: 35vw;
+}
+
+#mb-right {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mb-right-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#mb-right-container-top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#cf-calculator-container-top {
+  display: flex;
+  justify-content: center;
+}
+
+#cf-calculator-container-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#cf-calculator-table {
+  width: 100%;
+  border: white solid 3px;
+  border-radius: 25px;
+  padding: 1rem;
+}
+
+#mb-right-container-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* SUB-EDITS */
+.component-title {
+  border-bottom: white solid 3px;
+  border-radius: 25px;
+  padding: 1rem;
+  text-align: center;
+  font-family: Copperplate Gothic Light;
+  color: white;
+}
+
+.component-sub-title {
+  font-family: Bahnschrift SemiBold;
+  display: flex;
+  color: white;
+  font-size: 20px;
+}
+
+.component-text {
+  font-family: Bahnschrift light;
+  color: white;
+}
+
+/* .cf-c1 {
+  display: flex;
+  justify-content: center;
+} */
+
+.cf-c2 {
+  text-align: center;
+}
+
+#cf-c2-title {
+  display: flex;
+  justify-content: center;
+}
+
+#cf-total {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+
+#cf-c1-total {
+  text-align: left;
+}
+
+#sbmt-btn {
+  background-image: linear-gradient(92.88deg, #8ab446 9.16%, #739936 43.89%, #587725 64.72%);
+  border: white solid 3px;
+  border-radius: 25px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  font-family: Bahnschrift SemiBold;
+  font-size: 18px;
+  height: 2.5rem;
+  padding: 0 1rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all 0.5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+#sbmt-btn:hover {
+  box-shadow: white 0 1px 30px;
+  transition: box-shadow 0.1s;
+  font-size: 19px;
+  transition: font-size 0.3s;
+}
